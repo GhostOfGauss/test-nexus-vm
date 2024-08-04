@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ark-bn254 = { git = "https://github.com/arkworks-rs/curves/", rev = "8c0256a" }
 nexus-rt = { git = "https://github.com/nexus-xyz/nexus-zkvm.git", version = "0.2.1" }
 postcard = { version = "1.0.8", features = ["alloc"] }
 
